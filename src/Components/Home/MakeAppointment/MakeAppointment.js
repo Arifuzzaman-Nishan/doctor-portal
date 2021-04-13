@@ -5,7 +5,7 @@ import './MakeAppointment.css';
 
 const MakeAppointment = () => {
     return (
-        <section className='appointment-container'>
+        <section className='appointment-container mb-5'>
             <Container>
                 <Row>
                     <Col className='d-none d-md-block' md={6}>

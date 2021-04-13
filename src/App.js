@@ -12,8 +12,11 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path = '/'>
-            <Home></Home>
+        <Route path='/home'>
+          <Home></Home>
+        </Route>
+        <Route exact path='/'>
+          <Home></Home>
         </Route>
       </Switch>
     </Router>
